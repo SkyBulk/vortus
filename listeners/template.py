@@ -1,0 +1,5 @@
+MODULE_AUTHOR = "blackleitus"
+MODULE_LICENSE = ""
+MODULE_VERSION = "0.1"
+MODULE_DATE = ""
+MODULE_DE   = "Template"

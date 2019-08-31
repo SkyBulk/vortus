@@ -1,0 +1,6 @@
+12:08:31,452 __main__ DEBUG Launched botnet server python script
+12:08:31,453 __main__ DEBUG Created Server Thread
+12:08:31,453 __main__ DEBUG Running response handler: Thread-ID Thread-2
+12:08:31,453 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+12:08:31,553 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+12:08:31,554 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
