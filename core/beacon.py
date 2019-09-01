@@ -122,13 +122,16 @@ class SlaveThread(threading.Thread):
                 command = self.slave_conn.recv(1024).decode('utf-8')
                 if command is not "":
                     logger.debug("Slave  {0}:{1} command received: {2}".format(self.ip, str(self.port), command))
-                    self.proxy_queue.put(command)
-                    
                     ## Attempt to decode message and register bot if it's a new mac
                     command_json = json.loads(command)
                     if "type" in command_json and command_json["type"] == "new":
                         logger.debug("Slave {0}:{1} Created new mapping to {2}".format(self.ip, str(self.port), command_json["mac"]))
                         self.mac2addr[command_json["mac"]] = self.bot_addr
+                        # Unmarshal and add slave's address
+                        command_json['slave'] = {'ip': self.ip, 'port': self.port}
+                        # Marshal back
+                        command = json.dumps(command_json)
+                    self.proxy_queue.put(command)
             except socket.error as e:
                 pass
             except json.decoder.JSONDecodeError:

@@ -4,3 +4,571 @@
 12:08:31,453 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
 12:08:31,553 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
 12:08:31,554 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:20:56,371 __main__ DEBUG Launched botnet server python script
+02:20:56,371 __main__ DEBUG Created Server Thread
+02:20:56,372 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:20:56,373 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:20:56,478 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:20:56,480 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:23:26,2 __main__ DEBUG Launched botnet server python script
+02:23:26,3 __main__ DEBUG Created Server Thread
+02:23:26,3 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:23:26,4 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:23:26,106 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:23:26,106 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:23:32,69 __main__ DEBUG Launched beacon Python script
+02:23:32,69 __main__ DEBUG Created Beacon object
+02:23:32,69 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:23:32,73 __main__ DEBUG Connected to main server localhost:5000
+02:23:32,73 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:23:32,74 server_connection DEBUG Beacon 127.0.0.1:51575 connected
+02:23:32,74 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51575 connected'}
+02:23:32,74 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51575 connected is not JSON
+02:24:04,9 __main__ DEBUG Running Thread: Slave  127.0.0.1:51580 connected
+02:24:13,448 server_connection DEBUG Beacon 127.0.0.1:51575 - Socket: Connection Closed
+02:24:13,450 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': "[+] Connection from ('127.0.0.1', 51575) has been closed"}
+02:24:13,450 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Connection from ('127.0.0.1', 51575) has been closed is not JSON
+02:24:45,111 __main__ DEBUG Launched beacon Python script
+02:24:45,111 __main__ DEBUG Created Beacon object
+02:24:45,111 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:24:45,114 __main__ DEBUG Connected to main server localhost:5000
+02:24:45,114 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:24:45,114 server_connection DEBUG Beacon 127.0.0.1:51585 connected
+02:24:45,114 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51585 connected'}
+02:24:45,115 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51585 connected is not JSON
+02:24:47,950 __main__ DEBUG Running Thread: Slave  127.0.0.1:51586 connected
+02:24:57,840 server_connection DEBUG Beacon 127.0.0.1:51585 - Socket: Connection Closed
+02:24:57,840 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': "[+] Connection from ('127.0.0.1', 51585) has been closed"}
+02:24:57,841 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Connection from ('127.0.0.1', 51585) has been closed is not JSON
+02:25:00,340 __main__ DEBUG Launched beacon Python script
+02:25:00,340 __main__ DEBUG Created Beacon object
+02:25:00,340 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:25:00,342 __main__ DEBUG Connected to main server localhost:5000
+02:25:00,342 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:25:00,342 server_connection DEBUG Beacon 127.0.0.1:51589 connected
+02:25:00,343 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51589 connected'}
+02:25:00,343 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51589 connected is not JSON
+02:25:01,805 __main__ DEBUG Running Thread: Slave  127.0.0.1:51590 connected
+02:25:01,906 __main__ DEBUG Slave  127.0.0.1:51590 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:25:01,907 __main__ DEBUG Slave 127.0.0.1:51590 Created new mapping to AA:E9:FE:86:FF:52
+02:25:01,988 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:25:01,990 server_connection DEBUG Beacon 127.0.0.1:51589 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:25:01,991 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51589), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52"}'}
+02:25:19,118 server_connection DEBUG Beacon 127.0.0.1:51589 - Socket: Connection Closed
+02:25:24,440 __main__ DEBUG Launched botnet server python script
+02:25:24,440 __main__ DEBUG Created Server Thread
+02:25:24,441 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:25:24,443 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:25:24,543 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:25:24,543 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:25:26,185 __main__ DEBUG Launched beacon Python script
+02:25:26,185 __main__ DEBUG Created Beacon object
+02:26:18,200 __main__ DEBUG Launched beacon Python script
+02:26:18,200 __main__ DEBUG Created Beacon object
+02:26:18,200 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:26:18,202 __main__ DEBUG Connected to main server localhost:5000
+02:26:18,203 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:26:18,203 server_connection DEBUG Beacon 127.0.0.1:51606 connected
+02:26:18,203 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51606 connected'}
+02:26:18,203 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51606 connected is not JSON
+02:26:19,869 __main__ DEBUG Running Thread: Slave  127.0.0.1:51607 connected
+02:26:19,970 __main__ DEBUG Slave  127.0.0.1:51607 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:26:19,970 __main__ DEBUG Slave 127.0.0.1:51607 Created new mapping to AA:E9:FE:86:FF:52
+02:26:20,47 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:26:20,148 server_connection DEBUG Beacon 127.0.0.1:51606 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:26:20,148 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51606), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52"}'}
+02:26:20,148 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:26:33,239 server_connection DEBUG Beacon 127.0.0.1:51606 - Socket: Connection Closed
+02:26:54,935 __main__ DEBUG Launched botnet server python script
+02:26:54,936 __main__ DEBUG Created Server Thread
+02:26:54,936 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:26:54,936 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:26:55,40 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:26:55,40 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:26:59,575 __main__ DEBUG Launched beacon Python script
+02:26:59,575 __main__ DEBUG Created Beacon object
+02:27:01,717 __main__ DEBUG Launched beacon Python script
+02:27:01,717 __main__ DEBUG Created Beacon object
+02:27:07,692 __main__ DEBUG Launched beacon Python script
+02:27:07,692 __main__ DEBUG Created Beacon object
+02:27:07,693 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:27:07,695 __main__ DEBUG Connected to main server localhost:5000
+02:27:07,695 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:27:07,696 server_connection DEBUG Beacon 127.0.0.1:51614 connected
+02:27:07,696 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51614 connected'}
+02:27:07,696 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51614 connected is not JSON
+02:27:10,900 __main__ DEBUG Running Thread: Slave  127.0.0.1:51616 connected
+02:27:11,5 __main__ DEBUG Slave  127.0.0.1:51616 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:27:11,5 __main__ DEBUG Slave 127.0.0.1:51616 Created new mapping to AA:E9:FE:86:FF:52
+02:27:11,83 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:27:11,188 server_connection DEBUG Beacon 127.0.0.1:51614 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:27:11,189 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51614), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52"}'}
+02:27:11,190 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:27:59,116 server_connection DEBUG Beacon 127.0.0.1:51614 - Socket: Connection Closed
+02:28:03,14 __main__ DEBUG Launched botnet server python script
+02:28:03,15 __main__ DEBUG Created Server Thread
+02:28:03,15 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:28:03,18 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:28:03,117 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:28:03,118 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:28:04,441 __main__ DEBUG Launched beacon Python script
+02:28:04,441 __main__ DEBUG Created Beacon object
+02:28:16,569 __main__ DEBUG Launched beacon Python script
+02:28:16,569 __main__ DEBUG Created Beacon object
+02:28:20,862 __main__ DEBUG Launched beacon Python script
+02:28:20,862 __main__ DEBUG Created Beacon object
+02:28:24,64 __main__ DEBUG Launched beacon Python script
+02:28:24,64 __main__ DEBUG Created Beacon object
+02:28:30,248 __main__ DEBUG Launched beacon Python script
+02:28:30,248 __main__ DEBUG Created Beacon object
+02:28:30,248 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:28:30,251 __main__ DEBUG Connected to main server localhost:5000
+02:28:30,251 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:28:30,252 server_connection DEBUG Beacon 127.0.0.1:51625 connected
+02:28:30,252 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51625 connected'}
+02:28:30,252 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51625 connected is not JSON
+02:28:31,807 __main__ DEBUG Running Thread: Slave  127.0.0.1:51626 connected
+02:28:31,910 __main__ DEBUG Slave  127.0.0.1:51626 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:28:31,911 __main__ DEBUG Slave 127.0.0.1:51626 Created new mapping to AA:E9:FE:86:FF:52
+02:28:32,0 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:28:32,0 server_connection DEBUG Beacon 127.0.0.1:51625 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52"}
+02:28:32,1 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51625), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52"}'}
+02:28:32,1 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:29:09,791 server_connection DEBUG Beacon 127.0.0.1:51625 - Socket: Connection Closed
+02:29:20,565 __main__ DEBUG Launched botnet server python script
+02:29:20,565 __main__ DEBUG Created Server Thread
+02:29:20,566 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:29:20,566 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:29:20,569 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:29:20,569 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:29:22,294 __main__ DEBUG Launched beacon Python script
+02:29:22,294 __main__ DEBUG Created Beacon object
+02:29:23,814 __main__ DEBUG Launched beacon Python script
+02:29:23,814 __main__ DEBUG Created Beacon object
+02:29:25,120 __main__ DEBUG Launched beacon Python script
+02:29:25,120 __main__ DEBUG Created Beacon object
+02:29:32,903 __main__ DEBUG Launched beacon Python script
+02:29:32,903 __main__ DEBUG Created Beacon object
+02:29:34,20 __main__ DEBUG Launched beacon Python script
+02:29:34,20 __main__ DEBUG Created Beacon object
+02:29:38,921 __main__ DEBUG Launched beacon Python script
+02:29:38,921 __main__ DEBUG Created Beacon object
+02:29:42,130 __main__ DEBUG Launched beacon Python script
+02:29:42,130 __main__ DEBUG Created Beacon object
+02:29:42,130 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:29:42,133 __main__ DEBUG Connected to main server localhost:5000
+02:29:42,134 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:29:42,134 server_connection DEBUG Beacon 127.0.0.1:51634 connected
+02:29:42,134 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51634 connected'}
+02:29:42,134 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51634 connected is not JSON
+02:29:56,795 __main__ DEBUG Running Thread: Slave  127.0.0.1:51635 connected
+02:29:56,898 __main__ DEBUG Slave  127.0.0.1:51635 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:29:56,898 __main__ DEBUG Slave 127.0.0.1:51635 Created new mapping to AA:E9:FE:86:FF:52
+02:29:56,916 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:29:57,16 server_connection DEBUG Beacon 127.0.0.1:51634 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:29:57,17 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51634), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}'}
+02:29:57,17 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:30:09,738 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:09,838 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:09,944 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,49 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,154 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,257 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,360 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,463 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,564 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,665 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,766 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,867 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:10,971 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,73 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,175 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,275 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,378 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,481 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,582 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,683 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,787 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,889 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:11,990 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,92 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,197 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,299 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,403 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,507 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,608 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,710 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,814 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:12,916 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,18 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,124 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,228 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,330 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,433 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,537 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,637 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,741 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,845 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:13,950 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,50 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,152 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,254 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,358 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,462 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,568 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,672 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,774 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,877 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:14,978 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,81 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,182 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,282 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,383 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,487 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,591 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,694 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,796 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:15,897 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,0 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,104 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,204 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,306 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,406 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,512 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,612 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,713 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,817 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:16,920 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,24 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,128 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,230 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,332 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,438 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,543 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,645 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,748 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,851 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:17,955 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,55 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,159 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,264 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,369 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,472 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,575 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,680 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,781 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,883 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:18,987 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,91 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,194 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,299 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,403 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,507 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,608 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,712 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:19,814 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:30:27,264 __main__ DEBUG Launched botnet server python script
+02:30:27,264 __main__ DEBUG Created Server Thread
+02:30:27,265 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:30:27,265 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:30:27,367 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:30:27,368 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:30:29,377 __main__ DEBUG Launched beacon Python script
+02:30:29,377 __main__ DEBUG Created Beacon object
+02:30:30,792 __main__ DEBUG Launched beacon Python script
+02:30:30,793 __main__ DEBUG Created Beacon object
+02:30:35,273 __main__ DEBUG Launched beacon Python script
+02:30:35,273 __main__ DEBUG Created Beacon object
+02:31:01,981 __main__ DEBUG Launched botnet server python script
+02:31:01,982 __main__ DEBUG Created Server Thread
+02:31:01,983 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:31:01,983 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:31:01,987 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:31:01,988 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:31:03,397 __main__ DEBUG Launched beacon Python script
+02:31:03,397 __main__ DEBUG Created Beacon object
+02:31:03,398 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:31:03,399 __main__ DEBUG Connected to main server localhost:5000
+02:31:03,399 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:31:03,399 server_connection DEBUG Beacon 127.0.0.1:51666 connected
+02:31:03,400 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51666 connected'}
+02:31:03,400 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51666 connected is not JSON
+02:31:04,970 __main__ DEBUG Running Thread: Slave  127.0.0.1:51667 connected
+02:31:05,74 __main__ DEBUG Slave  127.0.0.1:51667 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:31:05,74 __main__ DEBUG Slave 127.0.0.1:51667 Created new mapping to AA:E9:FE:86:FF:52
+02:31:05,129 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:31:05,231 server_connection DEBUG Beacon 127.0.0.1:51666 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:31:05,231 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51666), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}'}
+02:31:05,232 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:31:16,986 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,89 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,190 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,293 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,394 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,494 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,595 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,696 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,798 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:17,899 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:18,0 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:18,100 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:18,201 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:18,303 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:18,404 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:18,510 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+02:31:24,223 __main__ DEBUG Launched beacon Python script
+02:31:24,224 __main__ DEBUG Created Beacon object
+02:31:26,134 __main__ DEBUG Launched botnet server python script
+02:31:26,135 __main__ DEBUG Created Server Thread
+02:31:26,135 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:31:26,135 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:31:26,238 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:31:26,238 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:31:31,754 __main__ DEBUG Launched beacon Python script
+02:31:31,754 __main__ DEBUG Created Beacon object
+02:31:33,94 __main__ DEBUG Launched beacon Python script
+02:31:33,94 __main__ DEBUG Created Beacon object
+02:31:39,37 __main__ DEBUG Launched beacon Python script
+02:31:39,37 __main__ DEBUG Created Beacon object
+02:31:39,917 __main__ DEBUG Launched beacon Python script
+02:31:39,917 __main__ DEBUG Created Beacon object
+02:31:43,728 __main__ DEBUG Launched beacon Python script
+02:31:43,728 __main__ DEBUG Created Beacon object
+02:31:45,566 __main__ DEBUG Launched beacon Python script
+02:31:45,566 __main__ DEBUG Created Beacon object
+02:31:47,400 __main__ DEBUG Launched beacon Python script
+02:31:47,400 __main__ DEBUG Created Beacon object
+02:31:48,645 __main__ DEBUG Launched beacon Python script
+02:31:48,645 __main__ DEBUG Created Beacon object
+02:31:49,499 __main__ DEBUG Launched beacon Python script
+02:31:49,500 __main__ DEBUG Created Beacon object
+02:31:49,500 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:31:49,502 __main__ DEBUG Connected to main server localhost:5000
+02:31:49,503 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:31:49,503 server_connection DEBUG Beacon 127.0.0.1:51676 connected
+02:31:49,503 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51676 connected'}
+02:31:49,503 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51676 connected is not JSON
+02:31:51,442 __main__ DEBUG Running Thread: Slave  127.0.0.1:51677 connected
+02:31:51,543 __main__ DEBUG Slave  127.0.0.1:51677 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:31:51,543 __main__ DEBUG Slave 127.0.0.1:51677 Created new mapping to AA:E9:FE:86:FF:52
+02:31:51,560 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:31:51,661 server_connection DEBUG Beacon 127.0.0.1:51676 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:31:51,662 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51676), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}'}
+02:31:51,662 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:31:55,53 commands DEBUG Command and Control: Typed command: b
+02:31:55,54 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Active Bots:\n1) 127.0.0.1:51676@apogiatzis'}
+02:31:55,54 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Active Bots:
+1) 127.0.0.1:51676@apogiatzis is not JSON
+02:31:56,914 commands DEBUG Command and Control: Typed command: i
+02:31:57,463 commands DEBUG Command and Control: Typed command: 1
+02:31:58,31 commands DEBUG Command and Control: Typed command: ls
+02:31:58,31 commands DEBUG Queuing command "ls" for ('127.0.0.1', 51676)
+02:31:58,132 server_connection DEBUG Thread Thread-3 received command: "{"to": "AA:E9:FE:86:FF:52", "cmd": "ls"}",  on subscribed topic: "('127.0.0.1', 51676)"
+02:31:58,133 server_connection DEBUG Thread Thread-3 sending command: {"to": "AA:E9:FE:86:FF:52", "cmd": "ls"}
+02:31:58,138 __main__ DEBUG Server Proxy Thread: Received message from main server: '{"to": "AA:E9:FE:86:FF:52", "cmd": "ls"}'
+02:31:58,138 __main__ DEBUG Server Proxy Thread: Adding message to messages_queue with topic: ('127.0.0.1', 51677)
+02:31:58,221 __main__ DEBUG Slave Thread-2 received command: "{'to': 'AA:E9:FE:86:FF:52', 'cmd': 'ls'}",  on subscribed topic: "('127.0.0.1', 51677)"
+02:31:58,222 __main__ DEBUG Slave Thread-2 sending command: {'to': 'AA:E9:FE:86:FF:52', 'cmd': 'ls'}
+02:31:58,327 __main__ DEBUG Slave  127.0.0.1:51677 command received: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+02:31:58,348 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+02:31:58,438 server_connection DEBUG Beacon 127.0.0.1:51676 received message: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+02:31:58,439 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51676), 'msg': '{"type": "cmd", "response": "agent.py\\n", "sender": "AA:E9:FE:86:FF:52"}'}
+02:32:09,529 server_connection DEBUG Beacon 127.0.0.1:51676 - Socket: Connection Closed
+02:32:09,530 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': "[+] Connection from ('127.0.0.1', 51676) has been closed"}
+02:32:09,530 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Connection from ('127.0.0.1', 51676) has been closed is not JSON
+02:33:29,629 __main__ DEBUG Launched botnet server python script
+02:33:29,629 __main__ DEBUG Created Server Thread
+02:33:29,630 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+02:33:29,630 __main__ DEBUG Running response handler: Thread-ID Thread-2
+02:33:29,732 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+02:33:29,732 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+02:33:31,906 __main__ DEBUG Launched beacon Python script
+02:33:31,906 __main__ DEBUG Created Beacon object
+02:33:31,906 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+02:33:31,908 __main__ DEBUG Connected to main server localhost:5000
+02:33:31,909 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+02:33:31,909 server_connection DEBUG Beacon 127.0.0.1:51697 connected
+02:33:31,909 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51697 connected'}
+02:33:31,909 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51697 connected is not JSON
+02:33:34,165 __main__ DEBUG Running Thread: Slave  127.0.0.1:51698 connected
+02:33:34,266 __main__ DEBUG Slave  127.0.0.1:51698 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:33:34,266 __main__ DEBUG Slave 127.0.0.1:51698 Created new mapping to AA:E9:FE:86:FF:52
+02:33:34,271 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:33:34,373 server_connection DEBUG Beacon 127.0.0.1:51697 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+02:33:34,374 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51697), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}'}
+02:33:34,374 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+02:33:46,763 __main__ DEBUG Running Thread: Slave  127.0.0.1:51699 connected
+02:33:46,763 __main__ DEBUG Slave  127.0.0.1:51699 command received: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis"}
+02:33:46,763 __main__ DEBUG Slave 127.0.0.1:51699 Created new mapping to MYMAC:ADDR
+02:33:46,787 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis"}
+02:33:46,789 server_connection DEBUG Beacon 127.0.0.1:51697 received message: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis"}
+02:33:46,789 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51697), 'msg': '{"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis"}'}
+02:33:46,789 __main__ DEBUG Thread Thread-2 received MAC: "MYMAC:ADDR",  registering bot
+03:12:06,445 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:06,550 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:06,652 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:06,757 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:06,859 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:06,961 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,63 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,169 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,274 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,375 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,477 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,577 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,681 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,785 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,887 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:07,989 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:08,94 __main__ DEBUG Server Proxy Thread: Received message from main server: ''
+03:12:41,187 __main__ DEBUG Launched botnet server python script
+03:12:41,188 __main__ DEBUG Created Server Thread
+03:12:41,189 __main__ DEBUG Running response handler: Thread-ID Thread-2
+03:12:41,189 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+03:12:41,294 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+03:12:41,295 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+03:12:44,865 __main__ DEBUG Launched beacon Python script
+03:12:44,865 __main__ DEBUG Created Beacon object
+03:12:44,865 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+03:12:44,869 __main__ DEBUG Connected to main server localhost:5000
+03:12:44,870 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+03:12:44,870 server_connection DEBUG Beacon 127.0.0.1:51976 connected
+03:12:44,870 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51976 connected'}
+03:12:44,870 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51976 connected is not JSON
+03:12:47,423 __main__ DEBUG Running Thread: Slave  127.0.0.1:51977 connected
+03:12:47,524 __main__ DEBUG Slave  127.0.0.1:51977 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+03:12:47,524 __main__ DEBUG Slave 127.0.0.1:51977 Created new mapping to AA:E9:FE:86:FF:52
+03:12:47,548 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51977}}
+03:12:47,653 server_connection DEBUG Beacon 127.0.0.1:51976 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51977}}
+03:12:47,654 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51976), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51977}}'}
+03:12:57,713 server_connection DEBUG Beacon 127.0.0.1:51976 - Socket: Connection Closed
+03:13:17,860 __main__ DEBUG Launched botnet server python script
+03:13:17,860 __main__ DEBUG Created Server Thread
+03:13:17,861 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+03:13:17,861 __main__ DEBUG Running response handler: Thread-ID Thread-2
+03:13:17,965 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+03:13:17,966 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+03:13:19,815 __main__ DEBUG Launched beacon Python script
+03:13:19,815 __main__ DEBUG Created Beacon object
+03:13:19,815 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+03:13:19,818 __main__ DEBUG Connected to main server localhost:5000
+03:13:19,818 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+03:13:19,818 server_connection DEBUG Beacon 127.0.0.1:51984 connected
+03:13:19,819 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51984 connected'}
+03:13:19,819 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51984 connected is not JSON
+03:13:22,832 __main__ DEBUG Running Thread: Slave  127.0.0.1:51986 connected
+03:13:22,934 __main__ DEBUG Slave  127.0.0.1:51986 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+03:13:22,935 __main__ DEBUG Slave 127.0.0.1:51986 Created new mapping to AA:E9:FE:86:FF:52
+03:13:23,14 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51986}}
+03:13:23,20 server_connection DEBUG Beacon 127.0.0.1:51984 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51986}}
+03:13:23,20 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51984), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51986}}'}
+03:13:35,726 server_connection DEBUG Beacon 127.0.0.1:51984 - Socket: Connection Closed
+03:13:39,140 __main__ DEBUG Launched botnet server python script
+03:13:39,140 __main__ DEBUG Created Server Thread
+03:13:39,141 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+03:13:39,141 __main__ DEBUG Running response handler: Thread-ID Thread-2
+03:13:39,242 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+03:13:39,243 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+03:13:40,990 __main__ DEBUG Launched beacon Python script
+03:13:40,990 __main__ DEBUG Created Beacon object
+03:13:40,990 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+03:13:40,993 __main__ DEBUG Connected to main server localhost:5000
+03:13:40,994 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+03:13:40,994 server_connection DEBUG Beacon 127.0.0.1:51988 connected
+03:13:40,994 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51988 connected'}
+03:13:40,994 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51988 connected is not JSON
+03:13:43,12 __main__ DEBUG Running Thread: Slave  127.0.0.1:51990 connected
+03:13:43,113 __main__ DEBUG Slave  127.0.0.1:51990 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+03:13:43,113 __main__ DEBUG Slave 127.0.0.1:51990 Created new mapping to AA:E9:FE:86:FF:52
+03:13:43,159 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51990}}
+03:13:43,245 server_connection DEBUG Beacon 127.0.0.1:51988 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51990}}
+03:13:43,245 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51988), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51990}}'}
+03:13:43,246 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+03:13:48,304 __main__ DEBUG Running Thread: Slave  127.0.0.1:51992 connected
+03:13:48,304 __main__ DEBUG Slave  127.0.0.1:51992 command received: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis"}
+03:13:48,304 __main__ DEBUG Slave 127.0.0.1:51992 Created new mapping to MYMAC:ADDR
+03:13:48,394 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51992}}
+03:13:48,495 server_connection DEBUG Beacon 127.0.0.1:51988 received message: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51992}}
+03:13:48,495 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51988), 'msg': '{"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51992}}'}
+03:13:48,496 __main__ DEBUG Thread Thread-2 received MAC: "MYMAC:ADDR",  registering bot
+03:13:55,870 server_connection DEBUG Beacon 127.0.0.1:51988 - Socket: Connection Closed
+03:13:55,870 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': "[+] Connection from ('127.0.0.1', 51988) has been closed"}
+03:13:55,870 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Connection from ('127.0.0.1', 51988) has been closed is not JSON
+03:14:00,83 __main__ DEBUG Launched botnet server python script
+03:14:00,83 __main__ DEBUG Created Server Thread
+03:14:00,84 __main__ DEBUG Running response handler: Thread-ID Thread-2
+03:14:00,86 __main__ DEBUG Starting net listener on tcp://0.0.0.0:5000
+03:14:00,187 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Starting net listener on tcp://0.0.0.0:5000'}
+03:14:00,187 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Starting net listener on tcp://0.0.0.0:5000 is not JSON
+03:14:02,768 __main__ DEBUG Launched botnet server python script
+03:14:02,768 __main__ DEBUG Created Server Thread
+03:14:02,769 __main__ DEBUG Running response handler: Thread-ID Thread-2
+03:14:08,587 __main__ DEBUG Launched beacon Python script
+03:14:08,587 __main__ DEBUG Created Beacon object
+03:14:08,587 __main__ DEBUG Started beacon server on tcp://0.0.0.0:5002
+03:14:08,590 __main__ DEBUG Connected to main server localhost:5000
+03:14:08,590 __main__ DEBUG Running Server Proxy: Thread-ID: Thread-1
+03:14:08,591 server_connection DEBUG Beacon 127.0.0.1:51993 connected
+03:14:08,591 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Beacon 127.0.0.1:51993 connected'}
+03:14:08,591 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Beacon 127.0.0.1:51993 connected is not JSON
+03:14:15,43 __main__ DEBUG Running Thread: Slave  127.0.0.1:51994 connected
+03:14:15,43 __main__ DEBUG Slave  127.0.0.1:51994 command received: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis"}
+03:14:15,43 __main__ DEBUG Slave 127.0.0.1:51994 Created new mapping to MYMAC:ADDR
+03:14:15,81 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51994}}
+03:14:15,182 server_connection DEBUG Beacon 127.0.0.1:51993 received message: {"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51994}}
+03:14:15,182 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51993), 'msg': '{"type": "new", "mac": "MYMAC:ADDR", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51994}}'}
+03:14:15,183 __main__ DEBUG Thread Thread-2 received MAC: "MYMAC:ADDR",  registering bot
+03:14:17,525 __main__ DEBUG Running Thread: Slave  127.0.0.1:51998 connected
+03:14:17,630 __main__ DEBUG Slave  127.0.0.1:51998 command received: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis"}
+03:14:17,631 __main__ DEBUG Slave 127.0.0.1:51998 Created new mapping to AA:E9:FE:86:FF:52
+03:14:17,635 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51998}}
+03:14:17,740 server_connection DEBUG Beacon 127.0.0.1:51993 received message: {"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51998}}
+03:14:17,741 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51993), 'msg': '{"type": "new", "mac": "AA:E9:FE:86:FF:52", "username": "apogiatzis", "slave": {"ip": "127.0.0.1", "port": 51998}}'}
+03:14:17,741 __main__ DEBUG Thread Thread-2 received MAC: "AA:E9:FE:86:FF:52",  registering bot
+03:14:19,95 commands DEBUG Command and Control: Typed command: i
+03:14:22,10 commands DEBUG Command and Control: Typed command: b
+03:14:22,866 commands DEBUG Command and Control: Typed command: b
+03:14:22,866 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': '[+] Active Bots:\n1) 127.0.0.1:51994@apogiatzis\n2) 127.0.0.1:51998@apogiatzis'}
+03:14:22,867 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Active Bots:
+1) 127.0.0.1:51994@apogiatzis
+2) 127.0.0.1:51998@apogiatzis is not JSON
+03:14:25,914 commands DEBUG Command and Control: Typed command: m
+03:14:27,305 commands DEBUG Command and Control: Typed command: ls
+03:14:27,305 commands DEBUG Queuing command "ls" for all bots
+03:14:27,331 server_connection DEBUG Thread Thread-3 received command: "{"to": "all", "cmd": "ls"}",  on subscribed topic: "all"
+03:14:27,332 server_connection DEBUG Thread Thread-3 sending command: {"to": "all", "cmd": "ls"}
+03:14:27,429 __main__ DEBUG Server Proxy Thread: Received message from main server: '{"to": "all", "cmd": "ls"}'
+03:14:27,429 __main__ DEBUG Server Proxy Thread: Adding message to messages_queue with topic: 'all'
+03:14:27,433 __main__ DEBUG Slave Thread-2 received command: "{'to': 'all', 'cmd': 'ls'}",  on subscribed topic: "all"
+03:14:27,433 __main__ DEBUG Slave Thread-2 sending command: {'to': 'all', 'cmd': 'ls'}
+03:14:27,434 __main__ DEBUG Slave Thread-3 received command: "{'to': 'all', 'cmd': 'ls'}",  on subscribed topic: "all"
+03:14:27,434 __main__ DEBUG Slave Thread-3 sending command: {'to': 'all', 'cmd': 'ls'}
+03:14:27,536 __main__ DEBUG Slave  127.0.0.1:51994 command received: {"type": "cmd", "response": "agent.py\n", "sender": "MYMAC:ADDR"}
+03:14:27,536 __main__ DEBUG Slave  127.0.0.1:51998 command received: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+03:14:27,631 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "cmd", "response": "agent.py\n", "sender": "MYMAC:ADDR"}
+03:14:27,641 server_connection DEBUG Beacon 127.0.0.1:51993 received message: {"type": "cmd", "response": "agent.py\n", "sender": "MYMAC:ADDR"}
+03:14:27,641 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51993), 'msg': '{"type": "cmd", "response": "agent.py\\n", "sender": "MYMAC:ADDR"}'}
+03:14:27,732 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+03:14:27,741 server_connection DEBUG Beacon 127.0.0.1:51993 received message: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+03:14:27,742 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51993), 'msg': '{"type": "cmd", "response": "agent.py\\n", "sender": "AA:E9:FE:86:FF:52"}'}
+03:14:36,727 commands DEBUG Command and Control: Typed command: ls
+03:14:36,729 commands DEBUG Queuing command "ls" for all bots
+03:14:36,821 server_connection DEBUG Thread Thread-3 received command: "{"to": "all", "cmd": "ls"}",  on subscribed topic: "all"
+03:14:36,822 server_connection DEBUG Thread Thread-3 sending command: {"to": "all", "cmd": "ls"}
+03:14:36,920 __main__ DEBUG Server Proxy Thread: Received message from main server: '{"to": "all", "cmd": "ls"}'
+03:14:36,921 __main__ DEBUG Server Proxy Thread: Adding message to messages_queue with topic: 'all'
+03:14:36,921 __main__ DEBUG Slave Thread-2 received command: "{'to': 'all', 'cmd': 'ls'}",  on subscribed topic: "all"
+03:14:36,922 __main__ DEBUG Slave Thread-2 sending command: {'to': 'all', 'cmd': 'ls'}
+03:14:36,922 __main__ DEBUG Slave Thread-3 received command: "{'to': 'all', 'cmd': 'ls'}",  on subscribed topic: "all"
+03:14:36,922 __main__ DEBUG Slave Thread-3 sending command: {'to': 'all', 'cmd': 'ls'}
+03:14:37,24 __main__ DEBUG Slave  127.0.0.1:51994 command received: {"type": "cmd", "response": "agent.py\n", "sender": "MYMAC:ADDR"}
+03:14:37,24 __main__ DEBUG Slave  127.0.0.1:51998 command received: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+03:14:37,129 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "cmd", "response": "agent.py\n", "sender": "MYMAC:ADDR"}
+03:14:37,135 server_connection DEBUG Beacon 127.0.0.1:51993 received message: {"type": "cmd", "response": "agent.py\n", "sender": "MYMAC:ADDR"}
+03:14:37,135 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51993), 'msg': '{"type": "cmd", "response": "agent.py\\n", "sender": "MYMAC:ADDR"}'}
+03:14:37,231 __main__ DEBUG Server Proxy Thread: Got message from proxy queue: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+03:14:37,238 server_connection DEBUG Beacon 127.0.0.1:51993 received message: {"type": "cmd", "response": "agent.py\n", "sender": "AA:E9:FE:86:FF:52"}
+03:14:37,238 __main__ DEBUG Thread Thread-2: Received response: {'addr': ('127.0.0.1', 51993), 'msg': '{"type": "cmd", "response": "agent.py\\n", "sender": "AA:E9:FE:86:FF:52"}'}
+03:14:57,66 server_connection DEBUG Beacon 127.0.0.1:51993 - Socket: Connection Closed
+03:14:57,66 __main__ DEBUG Thread Thread-2: Received response: {'addr': 'SYSTEM', 'msg': "[+] Connection from ('127.0.0.1', 51993) has been closed"}
+03:14:57,66 __main__ DEBUG Thread Thread-2 response processing error: Response [+] Connection from ('127.0.0.1', 51993) has been closed is not JSON

