@@ -1,0 +1,19 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="STRING">
+   <STRING />
+  </Target>
+  <UsingTask
+    TaskName="STRING"
+    TaskFactory="CodeTaskFactory"
+    AssemblyFile="C:\Windows\Microsoft.Net\Framework\v4.0.30319\Microsoft.Build.Tasks.v4.0.dll" >
+    <ParameterGroup/>
+    <Task>
+      <Using Namespace="System" />  
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+          Console.WriteLine("Hello World");   
+        ]]>
+      </Code>
+    </Task>
+    </UsingTask>
+</Project>
