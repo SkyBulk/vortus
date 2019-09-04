@@ -4,9 +4,9 @@ import sys
 import importlib
 from core.helpers import help_option
 from core.autocomplete import complete
-
+from core.stagers.marvin import Marvin
 class Listeners:
-	array = ["list", "run", "back", "help", "info"]
+	array = ["list", "run", "generate","back", "help", "info"]
 
 	def __init__(self):
 		self.modules = []
@@ -51,6 +51,9 @@ class Listeners:
 							print("\t| %d]. %s (%s) - %s\t|" %(self.c_modules, mod, m.MODULE_VERSION, m.MODULE_DE))
 					sys.stdout.write("\t")
 					print("-" * _)
+				elif prompt[0] == "generate":
+					a = Marvin()
+					a.generate()
 				elif prompt[0] == "help":
 					help_option()
 				elif prompt[0] == "back":
