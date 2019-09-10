@@ -17,7 +17,6 @@ class ServerConfig(object):
 
      ----------------------------------------------------------------------------------------------------
     """
-    MAIN_BANNER = ""
 
     @staticmethod
     def ui_bot_identifier(slave_obj):
