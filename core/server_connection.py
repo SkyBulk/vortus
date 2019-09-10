@@ -1,11 +1,12 @@
 import threading
-import logger
 import time
 import queue
 import json
 import socket
 
-from utils import wrap_response
+from core.utils import wrap_response
+from core import logger
+from data.state import VortusState
 
 logger = logger.get_logger(__name__)
 
@@ -34,6 +35,8 @@ class ServerConnectionThread(threading.Thread):
         for k, v in self.slave2beacon.copy().items():
             if v == self.client_address:
                 del self.slave2beacon[k]
+        # Delete from global stte
+        VortusState.delete_by_criteria("slaves", lambda s: s.beacon == self.client_address)
 
     def run(self):
         name = threading.current_thread().getName()

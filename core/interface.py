@@ -8,13 +8,15 @@ import datetime
 import sys
 import traceback
 import re
-import logging
 import locale
-import commands
 
 import urwid
 from urwid import MetaSignals
+from core import commands
+from core.logger import get_logger
+from core.config import ServerConfig
 
+logger = get_logger(__name__)
 
 class ExtendedListBox(urwid.ListBox):
     """
@@ -54,12 +56,12 @@ class ExtendedListBox(urwid.ListBox):
         urwid.ListBox.keypress(self, size, key)
 
         if key in ("page up", "page down"):
-            logging.debug("focus = %d, len = %d" % (self.get_focus()[1], len(self.body)))
+            logger.debug("focus = %d, len = %d" % (self.get_focus()[1], len(self.body)))
             if self.get_focus()[1] == len(self.body)-1:
                 self.auto_scroll = True
             else:
                 self.auto_scroll = False
-            logging.debug("auto_scroll = %s" % (self.auto_scroll))
+            logger.debug("auto_scroll = %s" % (self.auto_scroll))
     
     def print_text(self, text, attr=None):
         """
@@ -75,7 +77,7 @@ class ExtendedListBox(urwid.ListBox):
             pos = self.focus_position
         except IndexError:
             pos = -1 
-        # add a new test
+        # add a new text
         self.body.insert(pos + 1, text)
         self.focus_position = pos + 1
 
@@ -115,6 +117,7 @@ class MainWindow(object):
     _palette = [
             ('divider','black','dark cyan', 'standout'),
             ('cmd_response', 'light green', 'default', 'standout'),
+            ('banner', 'dark green', 'default', 'standout'),
             ('text','light gray', 'default'),
             ('bold_text', 'light gray', 'default', 'bold'),
             ("body", "text"),
@@ -217,7 +220,7 @@ class MainWindow(object):
         """
 
         self.header = urwid.Text("Status")
-        self.footer = urwid.Edit("> ")
+        self.footer = urwid.Edit("/ > ")
         self.divider = urwid.Text("Initializing.")
 
         self.generic_output_walker = urwid.SimpleFocusListWalker([])
@@ -243,6 +246,9 @@ class MainWindow(object):
                                ("Command and Control")))
 
         self.context.set_focus("footer")
+
+        self.command_handler.interface_footer = self.footer
+        self.body.print_text(ServerConfig.MAIN_BANNER, "banner")
 
 
     def draw_interface(self):
@@ -283,10 +289,17 @@ class MainWindow(object):
 
             if text in ('quit', 'q'):
                 self.quit()
+            #TODO: Need to figure out how to clear screen
+            # elif text in ('clear'):
+            #     # self.quit()
+            #     # self.shall_quit = False
+            #     self.ui = urwid.raw_display.Screen()
+            #     self.ui.register_palette(self._palette)
+            #     self.build_interface()
+            #     self.ui.run_wrapper(self.run)
 
             if text.strip():
-                self.command_handler.handle_command(text, self.footer)
-                # self.body.print_text(text, self.footer)
+                self.command_handler.handle_command(text)
 
         else:
             self.context.keypress (size, key)
@@ -312,7 +325,7 @@ def except_hook(extype, exobj, extb, manual=False):
             "exception": extype.__name__+": "+str(exobj)
         }
 
-    logging.error(message)
+    logger.error(message)
 
     print(message)
 
@@ -333,16 +346,16 @@ def setup_logging():
                 if record.exc_info:
                     except_hook(*record.exc_info)
 
-        logfile = '/tmp/ui.log'
-        logdir = os.path.dirname(logfile)
+        # logfile = '/tmp/ui.log'
+        # logdir = os.path.dirname(logfile)
 
-        if not os.path.exists(logdir):
-            os.makedirs(logdir)
+        # if not os.path.exists(logdir):
+        #     os.makedirs(logdir)
 
-        logging.basicConfig(filename=logfile, level=logging.DEBUG,
-            filemode="w")
+        # logging.basicConfig(filename=logfile, level=logging.DEBUG,
+        #     filemode="w")
 
-        logging.getLogger("").addHandler(ExceptionHandler())
+        # logging.getLogger("").addHandler(ExceptionHandler())
 
     except BaseException as e:
         print("Logging init error: %s" % (e))

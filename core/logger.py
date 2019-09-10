@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(filename="../debug/debug.log",
+logging.basicConfig(filename="debug/debug.log",
                     filemode='a',
                     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
                     datefmt='%H:%M:%S',

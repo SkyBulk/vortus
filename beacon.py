@@ -1,10 +1,10 @@
-import logger
 import queue
 import socket
 import threading
 import time
 import json
 
+from core import logger
 from collections import OrderedDict
 
 logger = logger.get_logger(__name__)

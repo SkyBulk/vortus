@@ -1,12 +1,16 @@
 import sys
 import os
 import time
+import core
+
 from core.autocomplete import complete
 from core.settings import VERSION
 from core.settings import help_option
 from core.helpers import version
 from core.listener import Listeners
 from core.sessions import sessions
+
+
 class Shell:
     array = ["listeners", "sessions", "help", "clear", "quit"]
 

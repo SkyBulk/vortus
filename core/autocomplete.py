@@ -17,7 +17,7 @@ class AutoComplete(object):
         except IndexError:
             return None
 
-def complete(array):
-    completer = AutoComplete(array)
+def complete(commands):
+    completer = AutoComplete(commands)
     readline.set_completer(completer.complete)
     readline.parse_and_bind('tab:complete')
